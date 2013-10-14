@@ -93,7 +93,7 @@ void LedDriver_TurnAllOn()
 }
 void LedDriver_TurnAllOff()
 {
-	ledsImage = ALL_LEDS_OFF;
+	//ledsImage = ALL_LEDS_OFF;
 	updateHardware();
 }
 
